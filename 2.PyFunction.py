@@ -23,17 +23,17 @@ hello(name)
 def main():
     name=input("what's your name?")
     hello(name)
+    x=int(input("Enter the value:"))
+    print(f"{x} square is",squared(x))
+def squared(n):
+    # use of return keyword
+    return pow(n,2)
 def hello(to="world"):
       print("Hello!!",to)
 
 main()
 #return keyword
-def main():
-    x=int(input("Enter the value:"))
-    print(f"{x} square is",squared(x))
-def squared(n):
-    return pow(n,2)
-main()
+
 
 
         
