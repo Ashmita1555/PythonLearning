@@ -20,7 +20,7 @@ def main():
     if parity(X):
         print(f"The  number {X} is even")
     else:
-        print(f"The number {X} is even")   
+        print(f"The number {X} is odd")   
 def parity(n): 
  if n%2==0:
     return True
@@ -37,7 +37,7 @@ match name:
     case"Draco":
         print("Slyrherin")
     case _: #for exception
-        print("Not recognized")    
+        print(" Sorry , not recognized")    
     
 
      
