@@ -22,7 +22,7 @@ def UpdateDictionary():
     Udict.update({"s3":"subodh"})#update the value of s3 as subodh
     print(Udict)
     
-def NestedDictionary():
+def NestedDictionary():#dictionary within dictionary
     MySibilings={
         "sib1":{
             "name":"Ron",
@@ -38,7 +38,7 @@ def NestedDictionary():
         },
                }
     print(MySibilings["sib2"]) 
-def Multivalued():
+def Multivalued():#list haveing multiple dictionary as its items.
     EmployeeDetails=[
         {"name":"Radha","address":"khumaltar","post":"SalseManager"},
         {"name":"Shyam","address":"Dhapakhel","post":"BranchManager"},
